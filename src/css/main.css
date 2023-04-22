@@ -1,0 +1,30 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom styles */
+:root {
+    --primary-color: #4CE0F8;
+    --secondary-color: #44FBDD;
+    --tertiary-color: #FF00A0;
+    --accent-color-1: #400071;
+    --accent-color-2: #250140;
+    --accent-color-3: #FFEA5F;
+    --light-text-color: #FFFDFA;
+    --dark-text-color: #191919;
+    --primary-background-color: #0F081B;
+    --secondary-background-color: #191919;
+    --white-background-color: #FFFDFA;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--primary-background-color);
+    color: var(--light-text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+/* Add more custom styles as needed */
